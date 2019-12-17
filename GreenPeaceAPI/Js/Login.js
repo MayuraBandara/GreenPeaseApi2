@@ -8,7 +8,7 @@ function GreenLogIn() {
     }
     var isSuccess = CallGreenAPI(request, LoginURL, "POST", false);
     debugger;
-    alert(isSuccess);
+    //alert(isSuccess);
      
 }
 
@@ -22,7 +22,7 @@ function GreenRegister() {
     }
     var isSuccess = CallGreenAPI(request, RegisterURL, "POST", false);
     debugger;
-    alert(isSuccess Register);
+    alert("isSuccess Register");
 
 }
 
