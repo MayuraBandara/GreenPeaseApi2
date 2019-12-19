@@ -9,6 +9,9 @@ namespace GreenPeaceAPI.Models
     {
         public string UserName { get; set; }
         public string Password { get; set; }
+        public string UserRoleStatus { get; set; }
+
+
     }
 
     public class RegisterRequest
