@@ -23,7 +23,7 @@ namespace GreenPeaceAPI.Controllers
             DBAccess ReadDB = new DBAccess();
             LoginRequest LoginReturn = ReadDB.ReadDatabase(Query, ConnectionString, value);
 
-            return "Hello from http post web api controller: " + value.Password;
+            return LoginReturn.UserRoleStatus;//"Hello from http post web api controller: " + value.Password;
         }
 
         [HttpPost]

@@ -7,6 +7,10 @@ function GreenLogIn() {
         Password: $('#txtPassword').val()
     }
     var isSuccess = CallGreenAPI(request, LoginURL, "POST", false);
+    if (isSuccess == 0) {
+        window.location.replace("http://localhost:52774/Html/Home.html");
+        
+    }
     debugger;
     //alert(isSuccess);
      
